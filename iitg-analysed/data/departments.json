@@ -1,0 +1,101 @@
+[
+  {
+    "id": "bsbe",
+    "name": "Biosciences & Bioengineering",
+    "code": "BSBE",
+    "url": "https://www.iitg.ac.in/bsbe/",
+    "location": { "lat": 26.1912, "lng": 91.6955 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "chem",
+    "name": "Chemical Engineering",
+    "code": "ChE",
+    "url": "https://www.iitg.ac.in/che/",
+    "location": { "lat": 26.1918, "lng": 91.6950 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "code": "Chem",
+    "url": "https://www.iitg.ac.in/chem/",
+    "location": { "lat": 26.1920, "lng": 91.6945 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "code": "CE",
+    "url": "https://www.iitg.ac.in/civil/",
+    "location": { "lat": 26.1915, "lng": 91.6940 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "cse",
+    "name": "Computer Science & Engineering",
+    "code": "CSE",
+    "url": "https://www.iitg.ac.in/cse/",
+    "location": { "lat": 26.1922, "lng": 91.6948 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "code": "Des",
+    "url": "https://www.iitg.ac.in/design/",
+    "location": { "lat": 26.1910, "lng": 91.6952 },
+    "hod": "",
+    "founded": 2008
+  },
+  {
+    "id": "eee",
+    "name": "Electronics & Electrical Engineering",
+    "code": "EEE",
+    "url": "https://www.iitg.ac.in/eee/",
+    "location": { "lat": 26.1925, "lng": 91.6942 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "hss",
+    "name": "Humanities & Social Sciences",
+    "code": "HSS",
+    "url": "https://www.iitg.ac.in/hss/",
+    "location": { "lat": 26.1917, "lng": 91.6935 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "maths",
+    "name": "Mathematics",
+    "code": "Math",
+    "url": "https://www.iitg.ac.in/maths/",
+    "location": { "lat": 26.1919, "lng": 91.6938 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "code": "ME",
+    "url": "https://www.iitg.ac.in/mech/",
+    "location": { "lat": 26.1914, "lng": 91.6946 },
+    "hod": "",
+    "founded": 1994
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "code": "Phy",
+    "url": "https://www.iitg.ac.in/phy/",
+    "location": { "lat": 26.1921, "lng": 91.6932 },
+    "hod": "",
+    "founded": 1994
+  }
+]
