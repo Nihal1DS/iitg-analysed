@@ -1,7 +1,7 @@
 {
   "name": "iitg-analysed",
   "version": "1.0.0",
-  "description": "Real-time IIT Guwahati intelligence dashboard — AI-powered news aggregation, research monitoring, and campus awareness.",
+  "description": "Real-time IIT Guwahati intelligence dashboard \u2014 AI-powered news aggregation, research monitoring, and campus awareness.",
   "author": {
     "name": "Nihal Patel",
     "email": "nihalpatel.2802@gmail.com",
@@ -30,7 +30,8 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "server": "node --experimental-specifier-resolution=node api/index.js",
-    "server:dev": "tsx watch api/index.ts"
+    "server:dev": "tsx watch api/index.ts",
+    "build:gh-pages": "VITE_BASE_PATH=/${GITHUB_REPOSITORY#*/}/ npm run build"
   },
   "dependencies": {
     "@deck.gl/core": "^9.0.0",

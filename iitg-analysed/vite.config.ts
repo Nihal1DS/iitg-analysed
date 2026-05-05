@@ -29,6 +29,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   const variant = VARIANT_CONFIG[mode as keyof typeof VARIANT_CONFIG] ?? VARIANT_CONFIG.world;
 
+  const isDefaultVariant = mode === 'world';
+
   return {
     resolve: {
       alias: {
@@ -60,8 +62,9 @@ export default defineConfig(({ mode }) => {
         },
       },
     },
+    base: env.VITE_BASE_PATH ?? '/',
     build: {
-      outDir: `dist/${mode}`,
+      outDir: isDefaultVariant ? 'dist' : `dist/${mode}`,
       target: 'es2022',
       rollupOptions: {
         output: {

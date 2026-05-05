@@ -47,6 +47,8 @@ npm run dev:infra        # Infrastructure map
 
 See the **[self-hosting guide](./docs/SELF_HOSTING.md)** for deployment options (Vercel, Docker, static).
 
+If you are deployed but cannot find/open the UI, see **[How to Open the Published Frontend](./docs/PUBLISHED_FRONTEND.md)**.
+
 ---
 
 ## Tech Stack
